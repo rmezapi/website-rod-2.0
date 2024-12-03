@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaFileDownload } from 'react-icons/fa';
 
-const mle_cv = 'https://drive.google.com/uc?export=download&id=1C9BqPM9gFR-fDqrl5uE6BX8K-DeXaXDZ';
-const ds_cv = 'https://drive.google.com/uc?export=download&id=1pKpUWeAseNk3aLt66LRVgDrWKL97N3PJ';
-const swe_cv = 'https://drive.google.com/uc?export=download&id=1GjCDpuSuB_fA_jCqeQA1zILe732wLOka';
+const mle_cv = 'https://drive.google.com/uc?export=download&id=1T4CU47P3jS9iBB8vROXz-5Ajspe4iX84';
+const ds_cv = 'https://drive.google.com/uc?export=download&id=1x6DpT9u6t1vxP6OjljdyC38yq4UdL8MW';
+const swe_cv = 'https://drive.google.com/uc?export=download&id=1od2vZVKyonxdlnAZXLzhdP3ar4lTngdR';
 
 const targetPath_mle = 'meza_rodrigo_mle_cv.pdf';
 const targetPath_ds = 'meza_rodrigo_ds_cv.pdf';
