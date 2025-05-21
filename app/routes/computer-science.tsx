@@ -110,6 +110,15 @@ function CsProjects() {
                   huggingface
                 </button>
               )}
+              {project.web_link && (
+                <button
+                  className="btn btn--secondary bg-gray-500 text-white hover:bg-secondary-dark transition px-3 py-2 mt-2"
+                  type="button"
+                  onClick={() => window.open(project.web_link as string, '_blank')}
+                >
+                  web
+                </button>
+              )}
             </div>
           </div>
         ))}
