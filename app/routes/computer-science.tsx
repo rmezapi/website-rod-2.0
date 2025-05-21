@@ -92,17 +92,24 @@ function CsProjects() {
               <p className="text-sm text-justify max-w-[90%]">{project.description_2}</p>
             </div>
             <div className="flex md:flex-col flex-row justify-center items-center w-full md:w-[15%] gap-3">
-             {project.github_link && (
-              <button className="btn btn--secondary bg-gray-400 text-white hover:bg-secondary-dark transition px-3 py-2 mt-2" type="button" onClick={() => window.open(project.github_link as string, '_blank')}>github</button>
-             )}
-             {project.huggingface_link && (
-              <button className="btn btn--secondary bg-gray-600 text-white hover:bg-secondary-dark transition px-3 py-2 mt-2" type="button" onClick={() => window.open(project.huggingface_link as string, '_blank')}>huggingface</button>
-             )
-             }
-             {project.web_link && (
-            <button className="btn btn--secondary bg-gray-800 text-white hover:bg-secondary-dark transition px-3 py-2 mt-2" type="button" onClick={() => window.open(project.web_link as string, '_blank')}>website</button>
-             )}
-              
+              {project.github_link && (
+                <button
+                  className="btn btn--secondary bg-gray-400 text-white hover:bg-secondary-dark transition px-3 py-2 mt-2"
+                  type="button"
+                  onClick={() => window.open(project.github_link as string, '_blank')}
+                >
+                  github
+                </button>
+              )}
+              {project.huggingface_link && (
+                <button
+                  className="btn btn--secondary bg-gray-600 text-white hover:bg-secondary-dark transition px-3 py-2 mt-2"
+                  type="button"
+                  onClick={() => window.open(project.huggingface_link as string, '_blank')}
+                >
+                  huggingface
+                </button>
+              )}
             </div>
           </div>
         ))}
